@@ -4,11 +4,12 @@ import katsucurry from '../assets/chicken katsu curry.jpg'
 import heroBg from '../assets/tokyoshokudobackgroundimage.avif'
 import nikutama from '../assets/nikutama.jpg'
 import storyImg from '../assets/tokyoshokudostory.avif'
+import gyoza from '../assets/gyoza.jpg'
 
 const featured = [
-  { name: 'Nikutama', description: 'Original noodle soup with beef, tempura flakes, soft boiled egg', price: '$13.99', category: 'Udon/Soba', image: nikutama },
-  { name: 'Gyoza', description: 'Deep fried dumpling with chicken & pork', price: '$6.99', category: 'Appetizer', image: 'https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80' },
   { name: 'Chicken Katsu Curry', description: 'Japanese curry with crispy fried chicken cutlet over rice', price: '$14.99', category: 'Curry', image: katsucurry },
+  { name: 'Gyoza', description: 'Deep fried dumpling with chicken & pork', price: '$6.99', category: 'Appetizer', image: gyoza },
+  { name: 'Nikutama', description: 'Original noodle soup with beef, tempura flakes, soft boiled egg', price: '$13.99', category: 'Udon/Soba', image: nikutama },
 ]
 
 export default function Home() {
@@ -65,7 +66,7 @@ export default function Home() {
         <div className="about-snippet-text">
         <span className="section-tag">Our Story</span>
         <h2 className="section-title">A Taste of Tokyo in Plano</h2>
-        <p>Tokyo Shokudo brings the warmth of Japanese home cooking to the heart of Plano, Texas. From rich tonkotsu ramen to hand-crafted sushi, every dish is prepared with care and authenticity.</p>
+        <p>Tokyo Shokudo brings the warmth of Japanese home cooking to the heart of Plano, Texas. From classic Japanese curry to hand-crafted sushi, every dish is prepared with care and authenticity.</p>
         <Link to="/about" className="btn btn-primary">Learn More</Link>
         </div>
         <div className="about-snippet-img">
