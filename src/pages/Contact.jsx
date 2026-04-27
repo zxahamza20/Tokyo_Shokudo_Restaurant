@@ -5,7 +5,17 @@ export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
   const [sent, setSent] = useState(false)
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value })
-  const handleSubmit = e => { e.preventDefault(); setSent(true) }
+  const handleSubmit = async (e) => {
+  e.preventDefault()
+  const response = await fetch('https://formspree.io/f/xvzdnbyp', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(form)
+  })
+  if (response.ok) {
+    setSent(true)
+  }
+}
 
   return (
     <div className="contact-page">
