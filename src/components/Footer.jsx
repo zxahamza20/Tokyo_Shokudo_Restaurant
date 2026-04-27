@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import './Footer.css'
+import logo from '../assets/tokyoshokudologo.png'
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
-          <span className="footer-kanji">東京食堂</span>
-          <p>Authentic Japanese Dining<br />Plano, Texas</p>
+            <img src={logo} alt="Tokyo Shokudo" className="footer-logo-img" />
+            <p>Authentic Japanese Dining<br />Plano, Texas</p>
         </div>
         <div className="footer-links">
           <h4>Pages</h4>
