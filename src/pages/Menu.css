@@ -1,0 +1,18 @@
+.menu-page { padding-top: 72px; min-height: 100vh; }
+.menu-container { max-width: 900px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+.menu-tabs { display: flex; gap: 0; flex-wrap: wrap; margin-bottom: 3rem; border-bottom: 1px solid var(--border); }
+.menu-tab {
+  background: none; font-family: var(--font-body); font-size: 0.78rem; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--mid-gray);
+  padding: 0.75rem 1.1rem; border-bottom: 2px solid transparent;
+  transition: var(--transition); margin-bottom: -1px;
+}
+.menu-tab:hover { color: var(--black); }
+.menu-tab.active { color: var(--red); border-bottom-color: var(--red); }
+.menu-items { display: flex; flex-direction: column; }
+.menu-item { display: flex; justify-content: space-between; align-items: flex-start; padding: 1.5rem 0; border-bottom: 1px solid var(--border); gap: 2rem; }
+.menu-item-info h3 { font-family: var(--font-display); font-size: 1.05rem; font-weight: 500; margin-bottom: 0.4rem; }
+.menu-item-info p { font-size: 0.875rem; color: var(--mid-gray); line-height: 1.6; }
+.menu-item-price { font-weight: 600; color: var(--red); font-size: 1rem; white-space: nowrap; flex-shrink: 0; }
+.menu-cta { text-align: center; margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border); }
+.menu-cta p { color: var(--mid-gray); margin-bottom: 1.5rem; font-size: 0.95rem; }
