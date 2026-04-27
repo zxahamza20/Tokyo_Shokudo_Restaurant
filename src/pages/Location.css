@@ -1,0 +1,13 @@
+.location-page { padding-top: 72px; min-height: 100vh; }
+.location-container { max-width: 1100px; margin: 0 auto; padding: 5rem 2rem 6rem; }
+.location-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 4rem; align-items: start; }
+.location-info { display: flex; flex-direction: column; gap: 3rem; }
+.info-block h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 500; margin: 0.5rem 0; }
+.info-block p { font-size: 0.95rem; color: var(--mid-gray); line-height: 1.8; margin: 0.25rem 0; }
+.hours-table { display: flex; flex-direction: column; margin-top: 0.75rem; }
+.hours-row { display: flex; justify-content: space-between; font-size: 0.9rem; padding: 0.65rem 0; border-bottom: 1px solid var(--border); }
+.location-map { height: 520px; border-radius: 4px; overflow: hidden; box-shadow: var(--shadow); position: sticky; top: 90px; }
+@media (max-width: 768px) {
+  .location-grid { grid-template-columns: 1fr; }
+  .location-map { height: 350px; position: static; }
+}
