@@ -19,8 +19,8 @@ export default function Footer() {
         </div>
         <div className="footer-contact">
           <h4>Contact</h4>
-          <p>123 Main St, Plano, TX 75023</p>
-          <p>(972) 555-0123</p>
+          <p>4709 W Parker Rd #450, Plano, TX 75093</p>
+            <p>(469) 626-0117</p>
           <p>plano@tokyoshokudo.com</p>
           <a href="https://order.toasttab.com/online/tokyo-shokudo" target="_blank" rel="noreferrer" className="footer-order-btn">
             Order Online

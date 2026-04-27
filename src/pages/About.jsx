@@ -1,4 +1,5 @@
 import './About.css'
+import teishoku from '../assets/teishokuimage.avif'
 
 export default function About() {
   const values = [
@@ -18,11 +19,11 @@ export default function About() {
           <div className="about-intro-text">
             <span className="section-tag">Who We Are</span>
             <h2 className="section-title">A Taste of Tokyo in Plano</h2>
-            <p>Tokyo Shokudo — meaning "Tokyo Dining Hall" — was born out of a love for authentic Japanese home cooking. We believe great food brings people together, and our mission is to deliver that warmth and authenticity to the Plano community.</p>
+            <p>Tokyo Shokudo, meaning "Tokyo Dining Hall", was born out of a love for authentic Japanese home cooking. We believe great food brings people together, and our mission is to deliver that warmth and authenticity to the Plano community.</p>
             <p>Every bowl of ramen, every piece of sushi, and every plate of curry is prepared with care using traditional techniques and quality ingredients.</p>
           </div>
           <div className="about-intro-img">
-            <img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?auto=format&fit=crop&w=800&q=80" alt="Tokyo Shokudo" />
+            <img src={teishoku} alt="Tokyo Shokudo" />
           </div>
         </div>
         <div className="about-values">

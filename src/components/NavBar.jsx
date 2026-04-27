@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
+import logo from '../assets/tokyoshokudologo.png'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -27,11 +28,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <span className="logo-kanji">東京食堂</span>
-          <div className="logo-text">
-            <span className="logo-main">TOKYO SHOKUDO</span>
-            <span className="logo-sub">PLANO, TX</span>
-          </div>
+        <img src={logo} alt="Tokyo Shokudo" className="navbar-logo-img" />
         </Link>
 
         <ul className={`navbar-links ${menuOpen ? 'open' : ''}`}>

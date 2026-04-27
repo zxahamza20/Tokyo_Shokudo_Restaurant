@@ -1,10 +1,13 @@
 import './Location.css'
 
 const hours = [
-  ['Monday', '11:00 AM – 9:00 PM'], ['Tuesday', '11:00 AM – 9:00 PM'],
-  ['Wednesday', '11:00 AM – 9:00 PM'], ['Thursday', '11:00 AM – 9:00 PM'],
-  ['Friday', '11:00 AM – 10:00 PM'], ['Saturday', '11:00 AM – 10:00 PM'],
-  ['Sunday', '12:00 PM – 8:00 PM'],
+  ['Sunday', '11:00 AM – 11:00 PM'],
+  ['Monday', '11:00 AM – 2:30 PM, 5:00 – 8:30 PM'],
+  ['Tuesday', '11:00 AM – 2:30 PM, 5:00 – 8:30 PM'],
+  ['Wednesday', '11:00 AM – 2:30 PM, 5:00 – 11:00 PM'],
+  ['Thursday', '11:00 AM – 2:30 PM, 5:00 – 11:00 PM'],
+  ['Friday', '11:00 AM – 12:00 AM'],
+  ['Saturday', '11:00 AM – 12:00 AM'],
 ]
 
 export default function Location() {
@@ -20,8 +23,8 @@ export default function Location() {
             <div className="info-block">
               <span className="section-tag">Address</span>
               <h3>Tokyo Shokudo – Plano</h3>
-              <p>123 Main St<br />Plano, TX 75023</p>
-              <a href="https://maps.google.com/?q=Tokyo+Shokudo+Plano+TX" target="_blank" rel="noreferrer" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block' }}>
+              <p>4709 W Parker Rd #450<br />Plano, TX 75093</p>
+              <a href="https://maps.google.com/?q=4709+W+Parker+Rd+%23450+Plano+TX+75093" target="_blank" rel="noreferrer" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block' }}>
                 Get Directions
               </a>
             </div>

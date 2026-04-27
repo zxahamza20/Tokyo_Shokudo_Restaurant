@@ -20,7 +20,7 @@ export default function Contact() {
             <h2 className="section-title">Say Hello</h2>
             <p>Have a question, feedback, or special request? Reach out and we'll get back to you as soon as possible.</p>
             <div className="contact-details">
-              {[['Phone', '(972) 555-0123'], ['Email', 'plano@tokyoshokudo.com'], ['Address', '123 Main St, Plano, TX 75023']].map(([label, val]) => (
+              {[['Phone', '(469) 626-0117'], ['Email', 'plano@tokyoshokudo.com'], ['Address', '4709 W Parker Rd #450, Plano, TX 75093']].map(([label, val]) => (
                 <div key={label}><strong>{label}</strong><span>{val}</span></div>
               ))}
             </div>
